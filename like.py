@@ -25,7 +25,7 @@ def sterm1():
         try:
             print('Tweet Favorited')
             tweet.favorite()
-            time.sleep(120)
+            time.sleep(360)
         except tweepy.TweepError as e1:
             print(e1.reason)
         except StopIteration:
@@ -35,7 +35,7 @@ def sterm2():
         try:
             print('Favorited')
             tweet.favorite()
-            time.sleep(120)
+            time.sleep(360)
         except tweepy.TweepError as e2:
             print(e2.reason)
         except StopIteration:
@@ -45,7 +45,7 @@ def sterm3():
         try:
             print('Favorited This Tweet')
             tweet.favorite()
-            time.sleep(120)
+            time.sleep(360)
         except tweepy.TweepError as e3:
             print(e3.reason)
         except StopIteration:
@@ -55,7 +55,7 @@ def sterm4():
         try:
             print('Did I Favorited This Tweet?')
             tweet.favorite()
-            time.sleep(120)
+            time.sleep(360)
         except tweepy.TweepError as e4:
             print(e4.reason)
         except StopIteration:
@@ -65,7 +65,7 @@ def sterm5():
         try:
             print('Roger, Favorited That Tweet')
             tweet.favorite()
-            time.sleep(10)
+            time.sleep(360)
         except tweepy.TweepError as e5:
             print(e5.reason)
         except StopIteration:
